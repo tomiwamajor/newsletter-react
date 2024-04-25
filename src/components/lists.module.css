@@ -1,0 +1,22 @@
+.listStyle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  font-size: 17px;
+  color: hsl(235, 18%, 26%);
+}
+
+.unordered {
+  margin-left: -40px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: 20px;
+  transform: translateY(-60px);
+}
+
+.paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}

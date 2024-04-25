@@ -1,0 +1,12 @@
+.head {
+  font-size: 40px;
+  color: hsl(234, 29%, 20%);
+  padding-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 21px;
+  color: hsl(235, 18%, 26%);
+  transform: translateY(-42px);
+  /* padding-bottom: 14rem; */
+}
