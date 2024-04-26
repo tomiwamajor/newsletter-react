@@ -66,9 +66,12 @@
 @media only screen and (max-width: 750px) {
   .body {
     grid-template-columns: 1fr;
-    width: 80%;
+    width: 100%;
   }
   .leftside {
     grid-row: 2/3;
+  }
+  .btn {
+    font-size: 17px;
   }
 }
