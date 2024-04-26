@@ -9,7 +9,7 @@ function SuccessMessage({ email }) {
         <img src={success} alt="Success icon" />
       </div>
       <p className={homeClasses.paragraph}>
-        Thanks for subscribing! A confirmation email has been sent to
+        Thanks for subscribing! A confirmation email has been sent to{" "}
         <span className={homeClasses.email}>{email}</span>. Please open it and
         click the button inside to confirm your subscription.
       </p>
