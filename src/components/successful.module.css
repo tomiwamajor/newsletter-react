@@ -10,6 +10,12 @@
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 80%;
+  }
+}
+
 .imgBody img {
   width: 35px;
 }

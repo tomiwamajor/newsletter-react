@@ -4,12 +4,12 @@ import Description from "./description";
 import Lists from "./lists";
 import Illustration from "./illustration";
 
-function FormSection() {
-  const [email, setEmail] = useState("");
+function FormSection({ setEmail, handleSuccess }) {
+  // const [email, isEmail] = useState("");
 
   function btnHandler(event) {
     event.preventDefault();
-    console.log("Email:", email);
+    handleSuccess();
   }
 
   return (
@@ -24,7 +24,6 @@ function FormSection() {
           <input
             type="email"
             id="email"
-            value={email}
             className={classes.email}
             aria-label="Email"
             placeholder="email@company.com"

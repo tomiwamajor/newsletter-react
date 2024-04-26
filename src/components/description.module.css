@@ -10,3 +10,14 @@
   transform: translateY(-42px);
   /* padding-bottom: 14rem; */
 }
+
+@media only screen and (max-width: 870px) {
+  .head {
+    font-size: 30px;
+    padding-bottom: 13px;
+  }
+
+  .paragraph {
+    font-size: 17px;
+  }
+}
