@@ -10,7 +10,7 @@ function SuccessMessage({ email }) {
       </div>
       <p className={homeClasses.paragraph}>
         Thanks for subscribing! A confirmation email has been sent to
-        <span className={homeClasses.email}>{email}</span> . Please open it and
+        <span className={homeClasses.email}>{email}</span>. Please open it and
         click the button inside to confirm your subscription.
       </p>
       <button className={classes.btn}>Dismiss message</button>
