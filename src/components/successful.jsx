@@ -2,7 +2,11 @@ import classes from "./form.module.css";
 import homeClasses from "./successful.module.css";
 import success from "../assets/icon-success.svg";
 
-function SuccessMessage({ email }) {
+function SuccessMessage({ email, goHome }) {
+  function btnClose() {
+    goHome();
+  }
+
   return (
     <div className={homeClasses.container}>
       <div className={homeClasses.imgBody}>
@@ -13,7 +17,9 @@ function SuccessMessage({ email }) {
         <span className={homeClasses.email}>{email}</span>. Please open it and
         click the button inside to confirm your subscription.
       </p>
-      <button className={classes.btn}>Dismiss message</button>
+      <button onClick={btnClose} className={classes.btn}>
+        Dismiss message
+      </button>
     </div>
   );
 }

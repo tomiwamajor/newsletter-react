@@ -12,12 +12,16 @@ function Container() {
     isSetSuccessful(true);
   }
 
+  function goHome() {
+    isSetSuccessful(false);
+  }
+
   return (
     <div className={classes.body}>
       {!setSuccessful ? (
         <FormSection setEmail={setEmail} handleSuccess={handleSuccess} />
       ) : (
-        <SuccessMessage email={email} />
+        <SuccessMessage email={email} goHome={goHome} />
       )}
     </div>
   );
